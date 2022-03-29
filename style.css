@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    background: #D5E1EF;
+    font-family: 'Quintessential', cursive;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 20%;
+    margin-top: 20px;
+    margin: 9% 40%;
+}
+
+.item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    transition: .1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    .card {
+        width: 70%;
+        margin-inline: 15%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 60%;
+        margin-inline: 20%;
+    }
+}
